@@ -1,0 +1,24 @@
+:root {
+  --big-circle-color: black;
+  --small-circle-color: brown;
+  --big-circle-diameter: 18px;
+  --circle-radius-thickness: 2px;
+}
+
+.the-circle:after {
+  content: "";
+  position: absolute;
+  height: 16px;
+  width: 16px;
+  border-radius: 8px;
+  background: black;
+  top: 10px;
+  left: 10px;
+}
+
+.the-circle {
+  height: 36px;
+  width: 36px;
+  border-radius: 18px;
+  line-height: 36px;
+}
